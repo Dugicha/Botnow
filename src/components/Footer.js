@@ -1,4 +1,5 @@
 import React from "react";
+import Image from 'next/image';
 
 const Footer = () => {
   return (
@@ -6,7 +7,7 @@ const Footer = () => {
       <div className="container mx-auto flex justify-between items-center">
         <div className="flex flex-col">
           <div className="flex items-center mb-4">
-            <img src="/path_to_icon.png" alt="Icon" className="h-8 w-8 mr-2" />
+            <Image src="/path_to_icon.png" alt="Icon" width={32} height={32} className="h-8 w-8 mr-2" />
             <span>Some Text</span>
           </div>
           <div className="mb-4">
@@ -28,9 +29,6 @@ const Footer = () => {
           <p>+1234567890</p>
         </div>
       </div>
-
-
-      
     </footer>
   );
 };

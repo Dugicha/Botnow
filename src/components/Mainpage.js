@@ -23,7 +23,7 @@ const MainPage = () => {
         </div>
         <div className="flex mt-4">
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded mr-2">
-            Let's Talk
+            Let&apos;s Talk
           </button>
           <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded ml-2">
             Our Services
